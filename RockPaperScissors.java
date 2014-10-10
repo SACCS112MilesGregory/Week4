@@ -67,3 +67,4 @@ public class RockPaperScissors
 		while(count<=3);
 	}
 }
+// Good..please also submit the rest of the labs
