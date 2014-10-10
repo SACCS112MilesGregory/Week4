@@ -1,0 +1,105 @@
+1. Identify the 5 components of a computer
+
+   	The 5 components of a computer are:
+
+	Input
+	Processing
+	Output
+	Memory
+
+	Networking
+	
+2. What is a computer network?
+
+	A network i two or more computers or other devices 
+	sonnected together so that they can exchange datea.
+
+3. What are some of the functionality of an Operating System?
+
+	Operating systems are software systems that make using 
+	computers more convenient for users. , etc. Operating sytems provide services that allow each aplication to execute safety, efficiently and cpncurrently.
+
+4. What is a Virtual Machine?
+	A virtual machine is a software application that simulates 
+	a computer but hides the underlying operating system and 
+	hardware from the program the interact with it.
+
+5. What is a program?
+
+	A program is a set or sets of intractions that guide the 
+	computer through orderly sets of actions spcified by people 
+	called computer programmers.
+
+6. What is a variable?
+
+	A variable is a location in the computer's memory where a 
+	value can be stored for use late in a program.
+
+7. What are the steps to run a Java program
+
+	1. Edit
+	2. Compile
+
+	3. Load
+	4. Verify
+	5.Execute
+
+8. How would you name the Java file that contains the Java program?
+
+	A file name ending wit the .java extension indicates that 
+	the file contains Java Source code.
+
+9. What is a class file?
+
+	The class file is the result of a successfully compiled 
+	program which contains the compiled version of the program.
+
+10.  How is Java VM similar to an Amazon virtual machine?
+
+	?
+
+Bonus, 10 points each
+B1. What is 289 in binary?
+
+	100100001
+
+B2. What's the best way to divide a binary number by 2?
+
+Bonus, 20 points
+Ask user to enter an integer, and let them know if the number is divisible by 2.
+
+
+  import java.util.Scanner;
+ 
+  public class OddEven_Ex1 
+  {
+     Scanner scan;
+     int num;
+	
+     void getVal() 
+     {	
+	scan = new Scanner(System.in);
+	System.out.println("Check Odd or Even");
+		
+	System.out.println("\nEnter the number : ");
+	num = Integer.parseInt(scan.nextLine());
+      }
+	
+      void check() 
+      {
+	 if((num % 2) == 0) 
+	    System.out.println(num + " is Even number");
+		else
+		   System.out.println(num + " is Odd number");
+      }
+  }
+ 
+  class MainClass 
+  {	
+     public static void main(String args[]) 
+     {
+         OddEven_Ex1 obj = new OddEven_Ex1();
+         obj.getVal();
+	 obj.check();
+     }
+  }
