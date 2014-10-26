@@ -19,11 +19,11 @@ public class Week4Lab1
 		{
 			System.out.println("You guessed right. You win!");
 		}
-		else if(guess < computerNum)
+		if(guess < computerNum)
 		{
 			System.out.println("You lose! Too low.");
 		}
-		else
+		if(guess > computerNum)
 		{
 			System.out.println("You lose! Too high.");
 		}		
